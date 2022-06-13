@@ -1,0 +1,455 @@
+<html lang="en">
+
+
+<%- include header %>
+
+<div class="row" id="superrow">
+<div class="col-sm-6 col-6 bg-danger">
+                Tâches faîtes
+                <table class="table text-center matache" id="tacheafaire">
+                    <tr class="table-dark">
+                        <th>Titre de la tâche</th>
+                        <th>Description de la tâche</th>
+                        <th>Catégorie</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+<tr class="table-dark">
+                   <% if (0 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite0 %></td>
+                        <td><%= nomcategorie0 %></td>
+                        <td><%= descriptionfaite0 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (1 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite1 %></td>
+                        <td><%= nomcategorie1 %></td>
+                        <td><%= descriptionfaite1 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (2 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite2 %></td>
+                        <td><%= nomcategorie2 %></td>
+                        <td><%= descriptionfaite2 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (3 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite3 %></td>
+                        <td><%= nomcategorie3 %></td>
+                        <td><%= descriptionfaite3 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (4 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite4 %></td>
+                        <td><%= nomcategorie4 %></td>
+                        <td><%= descriptionfaite4 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (5 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite5 %></td>
+                        <td><%= nomcategorie5 %></td>
+                        <td><%= descriptionfaite5 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (6 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite6 %></td>
+                        <td><%= nomcategorie6 %></td>
+                        <td><%= descriptionfaite6 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (7 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite7 %></td>
+                        <td><%= nomcategorie7 %></td>
+                        <td><%= descriptionfaite7 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (8 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite8 %></td>
+                        <td><%= nomcategorie8 %></td>
+                        <td><%= descriptionfaite8 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (9 < tele) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachefaite9%></td>
+                        <td><%= nomcategorie9 %></td>
+                        <td><%= descriptionfaite9 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<!--<% for (i = 0; i < tele; i++) { %>
+<br/>  
+
+<tr class="table-dark">
+
+
+
+
+
+
+
+
+                        <td><%= tachefaite0 %></td>
+                        <td><%= descriptionfaite0 %></td>
+                        <td><%= nomcategorie0 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+
+
+<% } %>-->
+
+
+
+<!--<script> 
+const tableauTache = document.querySelector("#tacheafaire");
+var count = telb;
+	for (i = 0; i < count; i++) { 
+      
+ var tache1 = document.createElement("tr");
+
+
+tache1.innerHTML=`
+
+                    <tr class="table-dark">
+                        <td><%= tache0 %></td>
+                        <td><%= tache0 %></td>
+                        <td><%= tache0 %></td>
+                        <th colspan="2">Actions</td>
+                    </tr>`;
+tableauTache.appendChild(tache1);
+console.log(tache1);
+ } </script>-->
+
+                </table>
+                
+            </div>
+            <div class="col-sm-6 col-6 bg-danger">
+                Tâches pas faîtes
+                <table class="table text-center matache" id="tachefaites">
+                    <tr class="table-dark">
+                        <th>Titre de la tâche</th>
+                        <th>Description de la tâche</th>
+                        <th>Catégorie</th>
+                        <th colspan="2">Actions</th>
+                    </tr>
+                    <tr class="table-dark">
+
+
+<% if (0 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite0 %></td>
+                        <td><%= nomcategoriep0 %></td>
+                        <td><%= descriptionfaitep0 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (1 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite1 %></td>
+                        <td><%= nomcategoriep1 %></td>
+                        <td><%= descriptionfaitep1 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (2 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite2 %></td>
+                        <td><%= nomcategoriep2 %></td>
+                        <td><%= descriptionfaitep2 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (3 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite3 %></td>
+                        <td><%= nomcategoriep3 %></td>
+                        <td><%= descriptionfaitep3 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (4 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite4 %></td>
+                        <td><%= nomcategoriep4 %></td>
+                        <td><%= descriptionfaitep4 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (5 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite5 %></td>
+                        <td><%= nomcategoriep5 %></td>
+                        <td><%= descriptionfaitep5 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (6 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite6 %></td>
+                        <td><%= nomcategoriep6 %></td>
+                        <td><%= descriptionfaitep6 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (7 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite7 %></td>
+                        <td><%= nomcategoriep7 %></td>
+                        <td><%= descriptionfaitep7 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+<% if (8 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite8 %></td>
+                        <td><%= nomcategoriep8 %></td>
+                        <td><%= descriptionfaitep8 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+ <% if (9 < telf) { %>
+<br/> 
+
+
+
+
+
+                        <td><%= tachepasfaite9%></td>
+                        <td><%= nomcategoriep9 %></td>
+                        <td><%= descriptionfaitep9 %></td>
+                        <td><button class="btn btn-warning">Modifier</button></td>
+						<td><button class="btn btn-danger">Supprimer</button></td>`;
+                    </tr>
+          <% } %>
+                </table>
+                
+            </div>
+        </div>
+            <br><br>
+<form class="form-horizontal" role="form" method="post" action="/home/dashboard">
+                                
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                    <span></span>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="nom_tache" class=" control-label">Nom_tache</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="nom_tache" placeholder="Nom de la tâche" id="roll-input">
+                                    </div>
+                                </div>
+                                
+                                                                                                <div class="form-group">
+                                    <label for="description" class=" control-label">Description</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="description" placeholder="description de la tâche">
+                                    </div>
+                                </div>
+                                                                                                <div class="form-group">
+                                    
+                                    <div class="">
+                                        <input type="hidden" class="form-control" name="id" placeholder="User Name" value="<%= tel %>">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                   
+         							<legend >La tâche est-elle déjà faîte ?</legend>
+         							<label class="" for="faite" class=" control-label">Oui</label>   
+        							<div class="">                         
+      									<input type="radio" id="huey" name="faite" value="oui"
+             																checked>
+            						</div>
+            
+
+    								<label for="faite" class=" control-label">Non</label>
+    								<div class="">
+      								<input type="radio" id="dewey" name="faite" value="non">
+    								</div>
+                                </div>
+                          
+ 
+                                <div class="form-group">
+                                                                          
+                                    <div class="">
+                                        
+                                        <button id="aa" type="submit" class="btn btn-info" name="aa" value="aa"><i class="icon-hand-right"></i> &nbsp Ajouter une tâche</button>
+                                        
+                                    </div>
+                                </div>
+                               
+                                
+                                
+                                
+                            </form>
+                            <form class="form-horizontal" role="form" method="post" action="/home/dashboard">
+                                
+                                <div id="signupalert" style="display:none" class="alert alert-danger">
+                                    <p>Error:</p>
+                                    <span></span>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="nom_categorie" class=" control-label">Nom_catégorie</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="nom_categorie" placeholder="Nom de la catégorie" id="roll-input">
+                                    </div>
+                                </div>
+                                
+                                                                                                <div class="form-group">
+                                    <label for="couleur_categorie" class=" control-label">Couleur catégorie</label>
+                                    <div class="">
+                                        <input type="text" class="form-control" name="couleur_categorie" placeholder="">
+                                    </div>
+                                </div>
+                                                                                                
+                                
+                          
+ 
+                                <div class="form-group">
+                                                                          
+                                    <div class="">
+                                        
+                                        <button id="btn-signupb" type="submit" class="btn btn-info" name="bb"><i class="icon-hand-right"></i> &nbsp Ajouter une catégorie</button>
+                                        
+                                    </div>
+                                </div>
+                               
+                                
+                                
+                                
+                            </form>
+
+<%- include footer %>
